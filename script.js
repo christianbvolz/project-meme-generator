@@ -9,3 +9,15 @@ function uploadImage(event) {
 }
 
 document.getElementById('meme-insert').addEventListener('change', uploadImage);
+document.getElementById('fire').addEventListener('click', () => {
+  const containerMeme = document.getElementById('meme-image-container');
+  containerMeme.style.border = '3px dashed red';
+});
+document.getElementById('water').addEventListener('click', () => {
+  const containerMeme = document.getElementById('meme-image-container');
+  containerMeme.style.border = '5px double blue';
+});
+document.getElementById('earth').addEventListener('click', () => {
+  const containerMeme = document.getElementById('meme-image-container');
+  containerMeme.style.border = '6px groove green';
+});
