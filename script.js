@@ -21,3 +21,23 @@ document.getElementById('earth').addEventListener('click', () => {
   const containerMeme = document.getElementById('meme-image-container');
   containerMeme.style.border = '6px groove green';
 });
+document.getElementById('meme-1').addEventListener('click', () => {
+  const image = document.getElementById('meme-image');
+  const meme1 = document.getElementById('meme-1');
+  image.src = meme1.src;
+});
+document.getElementById('meme-2').addEventListener('click', () => {
+  const image = document.getElementById('meme-image');
+  const meme2 = document.getElementById('meme-2');
+  image.src = meme2.src;
+});
+document.getElementById('meme-3').addEventListener('click', () => {
+  const image = document.getElementById('meme-image');
+  const meme3 = document.getElementById('meme-3');
+  image.src = meme3.src;
+});
+document.getElementById('meme-4').addEventListener('click', () => {
+  const image = document.getElementById('meme-image');
+  const meme4 = document.getElementById('meme-4');
+  image.src = meme4.src;
+});
