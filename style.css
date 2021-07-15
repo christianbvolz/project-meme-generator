@@ -38,13 +38,13 @@
   background-color: green;
 }
 
-#fire, #water, #earth {
+#fire , #water , #earth {
   padding: 10px 15px;
   color: white;
 }
 
 #memes-container {
-  position:relative;
+  position: relative;
   width: 500px;
 }
 
